@@ -2,3 +2,4 @@
 
 0-run: file that write shell script that runs a Python script
 1-run_inline: shell script that runs Python code
+2-print.py: script that prints exactly
