@@ -22,7 +22,7 @@ def roman_to_int(roman_string):
 
         if (d != (len(roman_string) - 1) and
                 roman_dict[roman_string[d]] < roman_dict[roman_string[d + 1]]):
-                digit += roman_dict[roman_string[d]] * -1
+            digit += roman_dict[roman_string[d]] * -1
 
         else:
             digit += roman_dict[roman_string[d]]
