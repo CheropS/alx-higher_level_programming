@@ -2,6 +2,7 @@
 
 """defines an empty class BaseGeometry"""
 
+
 class BaseGeometry:
     """represent base geometry"""
     pass
