@@ -3,7 +3,7 @@
 """defines a base model class"""
 import json
 import csv
-import turtle
+
 
 
 class Base:
