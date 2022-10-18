@@ -248,7 +248,7 @@ class TestRectangle_x(unittest.TestCase):
     """unittests for testing initalizaion of rectangle x attribute"""
 
     def test_None_x(self):
-        with self.assertRaiseRegex(TypeError, "x must be an integer"):
+        with self.assertRaisesRegex(TypeError, "x must be an integer"):
             Rectangle(1, 2, None)
 
     def test_str_x(self):
